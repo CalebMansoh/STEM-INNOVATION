@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button{
+  transition-duration: 400ms;
+}
+p{
+  font-size: 14px;
+}
+button:hover{
+  transition-timing-function: ease-in-out;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  border: 1px solid white;
+}
+button:focus-within{
+  outline: none;
+}
+h1{
+  font-weight: bold;
+  font-size: 30px;
+}
+h2{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+/* .dark a {
+  @apply text-blue-500;
+}
+
+.dark a:hover {
+  @apply text-blue-700;
+} */

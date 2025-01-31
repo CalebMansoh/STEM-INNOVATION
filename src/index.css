@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #eef3f254;
+  @apply duration-700 ease-linear;
+}
+.dark {
+  @apply bg-slate-600 text-slate-300;
+  @apply duration-700 ease-linear
+}
+.dark ::placeholder{
+  @apply text-slate-200 duration-700 ease-linear
+}
+
+/* .dark a {
+  @apply text-blue-500;
+}
+
+.dark a:hover {
+  @apply text-blue-700;
+} */
