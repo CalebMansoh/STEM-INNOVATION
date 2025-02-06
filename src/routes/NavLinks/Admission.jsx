@@ -1,12 +1,13 @@
 import React  from "react";
 import Navbar from "../../compnents/Navbar";
 import AdmissionForm from "./AdmissionData/AdmissionForm";
+import Footer from "../../compnents/Footer";
 
 const Admission = () => {
   return(
     <>
       <Navbar/>
-      <div className="md:mt-16 bg-black bg-blend-overlay bg-opacity-35 h-screen md:h-96 bg-[url('/AboutImage/Logo.jpg')] bg-no-repeat bg-cover bg-center flex flex-col justify-center md:justify-end p-6">
+      <div className="md:mt-16 bg-black bg-blend-overlay bg-opacity-35 h-screen md:h-96 bg-[url('/AboutImage/Logo.jpg')] bg-no-repeat bg-cover bg-center flex flex-col justify-center md:justify-end p-6 dark:bg-slate-800 dark:bg-opacity-75 duration-700 ease-linear dark:bg-blend-overlay">
         <div>
           <h1 className="text-center text-slate-100">Welcome to Awaso STEM <span className="italic text-red-300">Admission Form</span></h1>
         </div>
@@ -17,6 +18,7 @@ const Admission = () => {
         </div>
       </div>
       <AdmissionForm/>
+      <Footer/>
     </>
   )
 }

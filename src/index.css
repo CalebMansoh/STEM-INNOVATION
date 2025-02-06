@@ -7,11 +7,11 @@ body{
   @apply duration-700 ease-linear;
 }
 .dark {
-  @apply bg-slate-600 text-slate-300;
+  @apply bg-slate-800 text-slate-400;
   @apply duration-700 ease-linear
 }
 .dark ::placeholder{
-  @apply text-slate-200 duration-700 ease-linear
+  @apply text-slate-300 duration-700 ease-linear
 }
 
 /* .dark a {

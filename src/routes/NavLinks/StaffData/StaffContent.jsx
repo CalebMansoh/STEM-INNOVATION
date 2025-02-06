@@ -6,7 +6,7 @@ import { AiFillMoon, AiFillSun } from 'react-icons/ai';
 const StaffContent = () =>{
   const [password, setPassword] = useState('');
   const [isSubmited, setIsSubmited] = useState(false);
-  const correctPass = "Awaso"
+  const correctPass = "Teaching"
   const correctPass2 = "Staff"
   const redirectUrl = './MainStaff'
   const redirectUrl2 = '././NonStaff'
@@ -49,9 +49,9 @@ const StaffContent = () =>{
               <h2 className="py-4 dark:text-slate-300 duration-700 ease-linear">Login To Staff Portal</h2> 
             </div>
             <div className="flex flex-col gap-8">
-              <input type="text" placeholder="Enter Staff Name" id="UserName" name="UserName" className="rounded-md border-none bg-slate-200 dark:bg-slate-600 duration-700 ease-linear" required/>
+              <input type="text" placeholder="Enter Staff Name" id="UserName" name="UserName" className="rounded-md border-none bg-slate-200 dark:bg-slate-600 duration-700 ease-linear focus:ring-0" required/>
               <div className="flex items-center  rounded-md">
-                <input type={showPass?'text':'password'} value={password}name="pass" id="pass" placeholder="Enter Password" onChange={(event) => setPassword(event.target.value)}  className="rounded-md w-full border-none bg-slate-200 dark:bg-slate-600 duration-700 ease-linear" required/>
+                <input type={showPass?'text':'password'} value={password}name="pass" id="pass" placeholder="Enter Password" onChange={(event) => setPassword(event.target.value)}  className="rounded-md w-full border-none bg-slate-200 dark:bg-slate-600 duration-700 ease-linear focus:ring-0" required/>
                 <div className="-ml-5">
                   <button type="button" onClick={handleShowPass} className="hover:text-black hover:border-none dark:hover:text-slate-300">
                     {showPass?(<IoEye/>):(<IoEyeOff/>)}
@@ -67,10 +67,10 @@ const StaffContent = () =>{
               </button>
             </div>
             {isSubmited && (
-              <p className="text-green-500 mt-2 flex flex-row items-center gap-2 font-semibold">Form Submitted <IoLockOpenOutline/></p>
+              <p className="text-green-500 mt-2 flex flex-row items-center gap-2 font-semibold dark:text-green-400">Form Submitted <IoLockOpenOutline/></p>
             )}
             {!isSubmited && (
-              <p className="font-semibold text-red-700" id="error"></p>
+              <p className="font-semibold text-red-700 dark:text-red-500" id="error"></p>
             )}
             
           </form>
