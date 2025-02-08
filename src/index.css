@@ -13,6 +13,9 @@ body{
 .dark ::placeholder{
   @apply text-slate-300 duration-700 ease-linear
 }
+#aboutSpan{
+  @apply font-semibold text-xl
+}
 
 /* .dark a {
   @apply text-blue-500;

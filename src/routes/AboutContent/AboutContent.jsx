@@ -5,10 +5,10 @@ const AboutContent = () => {
   return(
     <>
       <div>
-        <div className="flex flex-col md:flex-row w-full justify-between items-center my-10 p-6 gap-4 bg-slate-200 shadow-md rounded-md dark:bg-slate-700">
+        <div className="flex flex-col md:flex-row w-full justify-between items-center my-10 p-6 bg-slate-200 shadow-md rounded-md dark:bg-slate-700 gap-16 duration-700 ease-linear">
           <div className="md:w-1/2 text-start">
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At similique inventore itaque in eos consectetur veniam eligendi vel debitis eaque sunt, nemo praesentium illo iusto deserunt ea eum cum, provident assumenda voluptatum nobis nam quod modi? Voluptate fuga eaque iusto nam, aliquam, illo ullam harum illum, provident saepe minus. Corrupti odit illo vitae eius neque inventore facere voluptas quibusdam. Animi dolores maiores, molestiae cumque nemo accusantium eos inventore corrupti eveniet ex! Et natus ratione deleniti eligendi ad illum est eos quam aperiam harum recusandae maiores expedita, ipsum aliquam animi explicabo fugiat placeat laborum illo amet accusantium atque possimus pariatur architecto.
+              <span id="aboutSpan">AWASO STEM</span> institution was established in 2021 with a maximum of 50 students, and located at AWASO, in BIBIANI ANHWIASO BEKWAI district. The school is held by <span id="aboutSpan">MR. JOSEPH ADJABENG</span> and his two deputies <span id="aboutSpan"> MR. GABRIEL ATTAH</span> and <span id="aboutSpan">MR. ISHMAEL NKRUMAH</span>. The school is a fully modernized institution which comprises of 21st century materials use for learning and teaching.
             </p>
           </div>
           <div className="md:w-1/2 w-full text-center bg-orange-300 h-80 rounded-md">

@@ -1,30 +1,22 @@
 import React from "react";
+import FooterGrid from "./FooterInfo/FooterGrid";
 
 
 const Footer = ()=> {
   return(
     <>
-      {/* <div className="mt-10 md:mt-20 bg-red-400 h-64" id="contact">
-        <div>
-          <img src="/Logo/download.jpg" alt="" className="w-20"/>
-        </div>
-        <div className="flex px-4 md:px-0 flex-row md:justify-around items-center justify-center">
-          <div className="">
-            <h2>Acounts</h2> 
-            <p>Caleb</p>
-            <p>Kwadwo</p>
-            <p>Mansoh</p>
-            <p>Jessica</p>
+      <div className="bg-red-400 text-white p-4 mt-16" id="contact">
+        {/* <div className="mx-6 pt-4">
+          <img src="/Logo/download.jpg" alt="" className="w-14 rounded-xl"/>
+        </div> */}
+        <div className="flex flex-col justify-center items-center mb-10">
+          <div>
+            <h2>More Info</h2>
           </div>
-          <div className="">
-            <h2>Links</h2>
-            <p>Caleb</p>
-            <p>Kwadwo</p>
-            <p>Mansoh</p>
-            <p>Jessica</p>
-          </div>
+          <div className=" w-48"><hr className="border border-slate-700"/></div>
         </div>
-      </div> */}
+        <FooterGrid/>
+      </div>
     </>
   )
 }

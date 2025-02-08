@@ -3,6 +3,7 @@ import Navbar from "../../compnents/Navbar";
 import AboutContent from "../AboutContent/AboutContent";
 import AboutGrid from "../AboutContent/AboutGrid";
 import Footer from "../../compnents/Footer";
+import AboutCotent2 from "../AboutContent/AboutCotent2";
 
 const About = () =>{
   return(
@@ -18,11 +19,8 @@ const About = () =>{
 
         <AboutContent/>
         <AboutGrid/>
-
-        <div className='flex justify-center my-10'>
-          <h1>In Progress...</h1>
-        </div>
-    </div>
+        <AboutCotent2/>
+      </div>
       <Footer/>
     </>
   )

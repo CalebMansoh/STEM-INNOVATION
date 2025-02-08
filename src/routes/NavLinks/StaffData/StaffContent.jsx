@@ -36,7 +36,7 @@ const StaffContent = () =>{
 
 
   return(
-    <>
+    <> 
       <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-32 mx-3 md:mx-6 my-10">
         <div className="text-start text-base text-slate-700 md:w-1/2 dark:text-slate-300 duration-700 ease-linear">
           <p className="text-lg md:text-lg">
