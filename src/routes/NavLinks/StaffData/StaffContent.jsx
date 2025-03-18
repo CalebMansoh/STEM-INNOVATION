@@ -44,7 +44,7 @@ const StaffContent = () =>{
           </p>
         </div>
         <div className="border border-solid border-slate-600 pt-5 pb-5 px-3 rounded-md shadow-md w-full md:w-1/2 bg-slate-300 dark:bg-slate-500 dark:border-slate-100 duration-700 ease-linear">
-          <form onSubmit={handelSubmit}>
+          <form onSubmit={handelSubmit} >
             <div className="text-center text-slate-700">
               <h2 className="py-4 dark:text-slate-300 duration-700 ease-linear">Login To Staff Portal</h2> 
             </div>

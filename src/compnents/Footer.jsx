@@ -1,5 +1,6 @@
 import React from "react";
 import FooterGrid from "./FooterInfo/FooterGrid";
+import Built from "./FooterInfo/Built";
 
 
 const Footer = ()=> {
@@ -16,6 +17,7 @@ const Footer = ()=> {
           <div className=" w-48"><hr className="border border-slate-700"/></div>
         </div>
         <FooterGrid/>
+        <Built/>
       </div>
     </>
   )

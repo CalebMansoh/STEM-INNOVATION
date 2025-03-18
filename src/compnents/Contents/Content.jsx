@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import Content2 from "./Content2"
-import { IoSettings } from "react-icons/io5"
 
 
 
@@ -15,8 +14,8 @@ function Content() {
           </p>
           <button className="mt-7 border border-solid border-black text-center inline-block px-4 md:px-2 py-1 rounded-md text-gray-700 shadow-xl hover:bg-red-400 duration-700 ease-in-out dark:text-slate-300 dark:border-slate-500"><Link to= "about">Read More</Link></button>
         </div>
-        <div className="md:w-1/2 md:h-82 w-full text-center bg-gray-700 shadow-lg rounded-md">
-          <img src="/ContentImage/download (3).jpg" className="w-full h-full rounded-md"/>
+        <div className="md:w-2/5 md:h-82 w-80 text-center bg-gray-700 shadow-lg rounded-md">
+          <img src="/AboutImage/Logo.jpg" className="w-full h-full rounded-md"/>
           {/* <h2 className="text-white">FlowBite</h2> */}
         </div>
       </div>

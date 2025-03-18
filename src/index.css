@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body{
-  background-color: #eef3f254;
   @apply duration-700 ease-linear;
 }
 .dark {

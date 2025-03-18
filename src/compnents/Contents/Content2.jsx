@@ -5,16 +5,15 @@ const Content2 = () => {
   return(
     <>
       <div>
-        <div className="flex flex-col justify-between gap-8 md:flex-row items-center mx-3 my-3 shadow-xl bg-gray-200 p-6 dark:bg-slate-700 duration-700 ease-linear rounded-md">
-          <div className="md:w-1/2 w-full">
-            <p className="text-lg text-start">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque voluptas ab atque, quasi cupiditate tempore. Delectus harum facere voluptatem veniam veritatis? Qui, repellat odit ea cum quo enim quidem commodi quibusdam corporis molestias distinctio voluptatum voluptatibus explicabo blanditiis. Saepe ex sit iste repudiandae voluptate, necessitatibus ducimus laudantium quis reiciendis maiores.
+        <div className="flex justify-center mx-3 my-3 shadow-xl bg-gray-200 dark:bg-slate-700 duration-700 ease-linear rounded-md h-80 items-center flex-col">
+          <div className="md:w-3/4 w-full">
+            <p className="text-lg text-center"> 
+              Awaso STEM offer all the science programs which is; <span className="text-xl font-semibold">"Chemistry, Biology, Physics, Elective Mathematics or Additional Mathematics"</span> with the addition of <span className="text-xl font-semibold">Engineering, Biomedicals, Aviation and Agriculture Science, Robotics, Computer Science and Geography</span>
             </p>
           </div>
-          <div className="md:w-1/2 h-80 w-full bg-gray-800 text-center rounded-md">
-            {/* <img src="/Logo/gallery6.jpg" alt="" className=" h-full w-full md:w-full"/> */}
+          {/* <div className="md:w-1/2 h-64 w-full bg-gray-800 text-center rounded-md">
             <h2 className="text-white">FlowBite</h2>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

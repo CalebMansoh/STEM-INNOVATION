@@ -9,9 +9,9 @@ const Staff = () => {
     <>
       <Navbar/>
       <div>
-        <div className={`text-center bg-[url('/AboutImage/Logo.jpg')] bg-opacity-60 bg-slate-900 duration-700 ease-linear bg-blend-overlay dark:bg-opacity-65 dark:bg-black dark:bg-blend-overlay bg-cover bg-center h-96 md:mt-16 flex flex-col justify-end items-center text-slate-200 mb-10 px-3`}>
-          <h1 className="mb-8 text-3xl md:text-4xl">Welcome to AWASO <span className="italic text-red-300">STEM PORTAL</span></h1>
-          <p className="text-center md:w-1/2 mb-10 md:mb-28 text-lg md:text-xl">
+        <div className={`text-center bg-[url('/AboutImage/Logo.jpg')] bg-opacity-60 bg-slate-900 duration-700 ease-linear bg-blend-overlay dark:bg-opacity-65 dark:bg-black dark:bg-blend-overlay bg-cover bg-center h-[500px]  md:mt-[64px] flex flex-col justify-center items-center text-slate-200 mb-10`}>
+          <h1 className=" text-3xl md:text-4xl my-16">Welcome to AWASO <span className="italic text-red-300">STEM PORTAL</span></h1>
+          <p className="text-center md:w-1/2 text-lg md:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni consectetur animi illo minima optio possimus maiores excepturi, repudiandae necessitatibus! Facilis?
           </p>
         </div>
