@@ -54,6 +54,7 @@ function Navbar() {
           <Link to="/about" className="hover:text-slate-300 duration-200 ease-linear">About</Link>
           <Link to= "/gallery" className="hover:text-slate-300 duration-200 ease-linear">Gallery</Link>
           <Link to = "/staff" className="hover:text-slate-300 duration-200 ease-linear">Staff Portal</Link>
+          <Link to = "/contact" className="hover:text-slate-300 duration-200 ease-linear">Contact</Link>
           
         </div>
       )}
