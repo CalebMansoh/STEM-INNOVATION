@@ -7,7 +7,7 @@ import './App.css'
 import Navbar from './compnents/Navbar'
 import Carousel from './compnents/Carousle'
 import Content from './compnents/Contents/Content'
-import Footer from './compnents/Footer'
+// import Footer from './compnents/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,8 +22,8 @@ function App() {
     <>
       <Navbar/>  
       <Carousel/>
-      <Content/>
-      <Footer/>
+      <Content/>/
+      {/* <Footer/> */}
       
     </>
   )

@@ -9,6 +9,7 @@ import Gallery from './routes/NavLinks/Gallery.jsx';
 import Staff from './routes/NavLinks/Staff-Poter.jsx';
 import MainStaff from './routes/NavLinks/MainStaff.jsx';
 import NonStaff from './routes/NavLinks/NonStaff.jsx';
+import Contact from './compnents/Contact.jsx';
 
 const router = createBrowserRouter([
   {path: "/", element: <App/>},
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   {path: "/staff", element: <Staff/>},
   {path: "/MainStaff", element:<MainStaff/>},
   {path: "/NonStaff", element:<NonStaff/>},
+  {path: "/Contact", element:<Contact/>},
 ])
 
 createRoot(document.getElementById('root')).render(

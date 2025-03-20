@@ -1,7 +1,7 @@
 import React  from "react";
 import Navbar from "../../compnents/Navbar";
-import AdmissionForm from "./AdmissionData/AdmissionForm";
 import Footer from "../../compnents/Footer";
+import AdmissionForm from "../AdmissionData/AdmissionForm";
 
 const Admission = () => {
   return(
@@ -18,7 +18,7 @@ const Admission = () => {
         </div>
       </div>
       <AdmissionForm/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

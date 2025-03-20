@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../compnents/Navbar";
 import Footer from "../../compnents/Footer";
-import StaffContent from "./StaffData/StaffContent";
+import StaffContent from '../StaffData/StaffContent'
 
 
 const Staff = () => {
