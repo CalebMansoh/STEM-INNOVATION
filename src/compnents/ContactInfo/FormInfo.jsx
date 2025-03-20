@@ -30,7 +30,7 @@ const FormInfo = () => {
         (response) => {
           console.log('SUCCESS!', response.status, response.text);
           toast.success('Form submitted successfully!', {
-            position: 'top-right',
+            position: 'bottom-left',
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -43,7 +43,7 @@ const FormInfo = () => {
         (error) => {
           console.error('FAILED...', error);
           toast.error('Failed to submit the form. Please try again.', {
-            position: 'top-right',
+            position: 'bottom-left',
             autoClose: 3000,
             hideProgressBar: false,
             closeOnClick: true,
